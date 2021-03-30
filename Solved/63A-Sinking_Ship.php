@@ -8,7 +8,7 @@ $people = (int)readline();
 
 // STDIN = fopen("php://stdin", "r");
 while ($people--) {
-    fscanf(STDIN, "%s %s", $name, $type);
+    fscanf(STDIN, "%s %s", $name, $type); // multiple variable input in single line
 
     if ($type == "rat") {
         array_push($rat, $name);
